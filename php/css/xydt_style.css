@@ -1,0 +1,76 @@
+@charset "utf-8";
+.box .sidebar {
+	background-image: url(../images/sidebar.jpg);
+	background-repeat: no-repeat;
+	height: 631px;
+	width: 194px;
+	margin-left: 5px;
+	float: left;
+}
+.box .shoolnews {
+	width: 776px;
+	float: right;
+	overflow: hidden;
+	margin-right: 5px;
+	border: 1px solid #CCC;
+	line-height: 30px;
+	padding-bottom: 20px;
+}
+.box .shoolnews .newss li a {
+	color: #666;
+	text-decoration: none;
+}
+.box .shoolnews .newss li a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+
+
+.box .shoolnews .title_xy {
+	height: 30px;
+	display: block;
+	list-style-type: none;
+	background-color: #f2f2f2;
+	padding-right: 20px;
+	padding-left: 35px;
+	margin-bottom: 20px;
+	background-image: url(../images/icon_tit.jpg);
+	background-repeat: no-repeat;
+	background-position: 20px center;
+}
+.box .shoolnews .title_xy h4 {
+	float: left;
+}
+.box .shoolnews .title_xy li {
+	float: right;
+	font-size: 14px;
+	margin-left: 5px;
+}
+.box .shoolnews .title_xy li a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+.box .shoolnews .title_xy li a {
+	color: #666;
+	text-decoration: none;
+}
+.box .shoolnews .newss {
+	list-style-type: none;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.box .shoolnews .newss li span {
+	float: right;
+}
+.box .shoolnews .newss li {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+	line-height: 30px;
+	height: 30px;
+	font-size: 12px;
+	padding-left: 15px;
+	background-image: url(../images/icon_dian.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+}

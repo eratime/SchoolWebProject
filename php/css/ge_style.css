@@ -1,0 +1,42 @@
+@charset "utf-8";
+.box .shoolnews h2 {
+	text-align: center;
+	font-family: "黑体";
+	margin-bottom: 20px;
+}
+.box .shoolnews .dantiao_nr {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.box .shoolnews .dantiao_nr .title_fbz {
+	background-color: #F2F2F2;
+	line-height: 30px;
+	height: 30px;
+	font-size: 12px;
+	border: 1px solid #CCC;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: "黑体";
+	margin-bottom: 20px;
+}
+
+.fbz {
+	margin-right: 20px;
+}
+
+
+.djs {
+	float: right;
+}
+.news_nrs {
+	word-break:break-all;
+}
+.news_nrs .nrs_tu {
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	height: auto;
+	width: 50%;
+	display: block;
+}

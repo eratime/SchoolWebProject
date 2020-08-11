@@ -1,0 +1,231 @@
+@charset "utf-8";
+*{
+	padding:0;
+	margin:0;
+}
+.top {
+	background-image: url(../images/hjs_02.jpg);
+	height: 181px;
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nav {
+	background-image: url(../images/hjs_04.jpg);
+	height: 58px;
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box .tongzhigonggao {
+	background-image: url(../images/hjs_07.jpg);
+	height: 282px;
+	width: 230px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+.box .banner {
+	background-image: url(../images/hjs_10.jpg);
+	height: 260px;
+	width: 314px;
+	float: left;
+}
+.box {
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	padding-top: 10px;
+	box-shadow: #21a2dc 0px 5px 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.box .banner_news {
+	border: 1px solid #CCC;
+	overflow: hidden;
+	padding: 10px;
+	float: left;
+	margin-right: 5px;
+}
+.box .xxt {
+	background-image: url(../images/hjs_15.jpg);
+	background-repeat: no-repeat;
+	height: 343px;
+	width: 230px;
+	float: left;
+	margin-left: 5px;
+}
+.box .jwky {
+	background-image: url(../images/hjs_21.jpg);
+	background-repeat: no-repeat;
+	height: 236px;
+	width: 422px;
+	float: left;
+	margin-left: 10px;
+}
+.box .zs {
+	background-image: url(../images/hjs_17.jpg);
+	height: 96px;
+	width: 740px;
+	float: right;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.box .xxsp {
+	background-image: url(../images/hjs_23.jpg);
+	height: 236px;
+	width: 308px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 10px;
+}
+
+
+
+
+.box .banner_news .news_box {
+	float: left;
+	overflow: hidden;
+	width: 400px;
+}
+.news_box .nr {
+	display: block;
+	padding-top: 10px;
+	list-style-type: none;
+	padding-left: 10px;
+}
+.banner2 {
+	background-image: url(../images/hjs_06.jpg);
+	height: 59px;
+	width: 980px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 5px;
+	float: left;
+	margin-bottom: 5px;
+}
+.box .zhuanye {
+	background-image: url(../images/hjs_20.jpg);
+	height: 59px;
+	width: 980px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	float: left;
+}
+.foot {
+	background-image: url(../images/hjs_31.jpg);
+	height: 127px;
+	width: 990px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+.nr li a {
+	color: #666;
+	text-decoration: none;
+}
+.nr li a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+
+
+
+.nr li span {
+	float: right;
+}
+.box .banner_news .news_box .nr.ssjj .shou1 {
+	font-size: 16px;
+	background-image: none;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F00;
+}
+
+.nr li {
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	padding-right: 10px;
+	color: #666;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	background-image: url(../images/listicon.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+}
+.banner_news .news_box .title_news ul h4 {
+	color: #F00;
+	font-family: "黑体";
+	float: left;
+}
+.news_box .title_news {
+	background-image: url(../images/newscbg.jpg);
+	background-repeat: repeat-x;
+	height: 32px;
+	width: 400px;
+	line-height: 32px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.btn1 {
+	background-image: url(../images/tab.jpg);
+	text-align: center;
+	height: 32px;
+	width: 80px;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	line-height: 30px;
+}
+.title_news ul {
+	list-style-type: none;
+}
+.title_news ul  a {
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;
+}
+
+
+.btn2 {
+	background-image: url(../images/tabhover.jpg);
+	height: 32px;
+	width: 80px;
+	text-align: center;
+	margin-right: 5px;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	line-height: 30px;
+}
+
+
+.news_box .title_news ul li {
+	float: right;
+}
